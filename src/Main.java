@@ -64,6 +64,6 @@ public class Main {
         System.out.println("");
         olympics.getNumberOfAthletes();
         System.out.println("");
-        europe.getNumberOfGoldMedals();
+        olympics.getNumberOfGoldMedals();
     }
 }
