@@ -17,16 +17,16 @@ public class Main {
         Team southAmerica = new Team("Team South America");
 
         Sport teakwondo = new Sport("Teakwondo", 3, 6);
-        Sport waterpolo = new Sport("Waterpolo", 3, 6);
-        Sport artisticGymnastic = new Sport("Artistic Gymnastic", 3, 6);
-        Sport shooting = new Sport("Shooting", 3, 6);
-        Sport cycling = new Sport("Cycling", 3, 6);
-        Sport tennis = new Sport("Tennis", 3, 6);
-        Sport tableTennis = new Sport("Table Tennis", 3, 6);
-        Sport footballGermany = new Sport("Football Germany", 3, 6);
-        Sport alpineSki = new Sport("Alpine Ski", 3, 6);
-        Sport footballItaly = new Sport("Football Italy", 3, 6);
-        Sport swimming = new Sport("Swimming", 3, 6);
+        Sport waterpolo = new Sport("Waterpolo", 6, 2);
+        Sport artisticGymnastic = new Sport("Artistic Gymnastic", 4, 8);
+        Sport shooting = new Sport("Shooting", 2, 2);
+        Sport cycling = new Sport("Cycling", 4, 5);
+        Sport tennis = new Sport("Tennis", 2, 4);
+        Sport tableTennis = new Sport("Table Tennis", 2, 2);
+        Sport footballGermany = new Sport("Football Germany", 23, 9);
+        Sport alpineSki = new Sport("Alpine Ski", 1, 3);
+        Sport footballItaly = new Sport("Football Italy", 21, 0);
+        Sport swimming = new Sport("Swimming", 2, 1);
 
         olympics.add(asia);
         olympics.add(africa);
@@ -62,8 +62,10 @@ public class Main {
         System.out.println("Number of european Athletes Total: " + europe.getNumberOfAthletesTotal());
         System.out.println("Number of european Goldmedals Total: " + europe.getNumberOfGoldMedalsTotal());
         System.out.println("");
+        System.out.println("Athletes:");
         olympics.getNumberOfAthletes();
         System.out.println("");
+        System.out.println("Gold Medals:");
         olympics.getNumberOfGoldMedals();
     }
 }
